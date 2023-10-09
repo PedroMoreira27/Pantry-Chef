@@ -1,0 +1,30 @@
+/* Navbar */
+.navbutton button{
+    border: none;
+    background-color: #FF9200;
+    font-size: 22px;
+}
+
+.navbutton button:hover{
+    border: none;
+    background-color: #ce7705;
+    font-size: 22px;
+}
+
+nav{
+    background-color: #FF9200;
+}
+
+/*Form Cadastro*/
+#cardcadastro{
+    width: 50%;
+    height: 50%;
+}
+
+.submitcadastro{
+    background-color: #FF9200;
+    width: 100%;
+    height: 6vh;
+    color: #fafafa;
+    font-size: 22px;
+}
