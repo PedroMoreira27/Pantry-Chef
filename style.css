@@ -11,6 +11,11 @@
     font-size: 22px;
 }
 
+.navbutton button a{
+    text-decoration: none;
+    color: white;
+}
+
 nav{
     background-color: #FF9200;
 }
