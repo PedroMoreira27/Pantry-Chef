@@ -1,0 +1,17 @@
+body {
+    background-color: #FF9200;
+    position: absolute;
+    top: 40%;
+    width: 100vw;
+}
+
+#container-home, #div-home{
+    height: 100%;
+    width: 100vw;
+}
+
+.whiteline{
+    width: 100%;
+    border: #fafafa 2px solid;
+    align-self: center;
+}
