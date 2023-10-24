@@ -1,0 +1,36 @@
+body {
+    background-color: #FF9200;
+}
+
+#cardcadastro {
+    background-color: aliceblue;
+    width: 50%;
+    margin-top: 5%;
+}
+#button-back {
+    border: none;
+    background-color: aliceblue;
+}
+#button-back img {
+    width: 10%;
+    height: 10%;
+}
+#div-home, #container-home {
+    margin-top: 1%;
+    justify-content: center;
+    width: 100%;
+}
+.div-button {
+    display: flex;
+    flex-direction: row;    
+}
+#text-cadastro {
+    text-align: center;
+    width: 85%;
+}
+.submit-cadastro {
+    background-color: #FF9200;
+    border: none;      
+    width: 200px; 
+    height: 50px;
+}
