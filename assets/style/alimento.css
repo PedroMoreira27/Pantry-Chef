@@ -26,7 +26,7 @@ nav{
 
 .card{
     background-color: #FF9200;
-    height: 90%;
+    height: 100%;
     width: 70%;
     gap: 2%;
     border-radius: 16px;
@@ -46,7 +46,7 @@ nav{
 
 .card-food{
     background-color: #fafafa;
-    height: 15%;
+    height: 14vh;
     width: 95%;
     border-radius: 16px;
     display: flex;
@@ -59,6 +59,14 @@ nav{
     gap: 5%;
     align-items: center;
     padding-left: 2.5%;
+}
+
+.card-food-check{
+    width: 10%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-food-title{
@@ -74,5 +82,59 @@ nav{
 
 .card-food-text h4, .card-food-text p{
     margin: 2.5% 0 2.5% 0;
+    width: 30vw;
+    text-align: start;
 }
 
+.search-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search{
+    padding: 20px;
+    background-color: #fafafa;
+    margin: 4%;
+    border: none;
+    width: 67%;
+    border-radius: 32px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 30px; /* Aumente este valor para ajustar o espaço para a sombra */
+    cursor: pointer;
+  }
+  
+  /* Estilize a parte gráfica do checkbox */
+  .custom-checkbox .checkbox-input {
+    display: none; /* Oculta o input original */
+  }
+  
+  .custom-checkbox .checkbox-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px; /* Tamanho da caixa de seleção */
+    height: 20px; /* Tamanho da caixa de seleção */
+    background-color: #fff; /* Cor de fundo */
+    border: 1px solid #ccc; /* Borda da caixa de seleção */
+    border-radius: 3px; /* Borda arredondada da caixa de seleção */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra da caixa de seleção */
+  }
+  
+  /* Estilize a marca de seleção (checkmark) quando o checkbox está marcado */
+  .custom-checkbox .checkbox-input:checked + .checkbox-label:after {
+    content: '\2714'; /* Código do ícone de marca de seleção (✔) */
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    font-size: 16px;
+    color: #007bff; /* Cor da marca de seleção quando marcado */
+  }
