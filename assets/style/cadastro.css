@@ -3,34 +3,42 @@ body {
 }
 
 #cardcadastro {
-    background-color: aliceblue;
+    background-color: fafafa;
     width: 50%;
     margin-top: 5%;
+    border: none;
 }
 #button-back {
     border: none;
-    background-color: aliceblue;
+    background-color: fafafa;
+    width: 8%;
 }
 #button-back img {
-    width: 10%;
-    height: 10%;
+    height: 50%;
+    opacity: 0.2;
 }
 #div-home, #container-home {
-    margin-top: 1%;
+    margin-top: 10%;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 .div-button {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
 }
+
 #text-cadastro {
     text-align: center;
     width: 85%;
 }
+
 .submit-cadastro {
     background-color: #FF9200;
+    color: #fafafa;
     border: none;      
     width: 200px; 
     height: 50px;
-}
+    border-radius: 8px;
+  }
+  
