@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function toggleElements() {
             loadingHub.style.display = "none";
-            skipBtn.style.display = "block";
+            skipBtn.style.display = "flex";
             mainCarousel.style.display = "block";
         }
 
-        setTimeout(toggleElements, 2500);
+        setTimeout(toggleElements, 3500);
     }
 });

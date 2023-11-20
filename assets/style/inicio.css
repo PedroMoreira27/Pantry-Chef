@@ -94,13 +94,11 @@ body {
 }
 
 .slide-content {
-  opacity: 0;
   transition: opacity 1s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  top: -15vh;
   margin: 15%;
 }
 
@@ -159,9 +157,42 @@ body {
   margin-top: 1vh;
   background-color: #fafafa;
   border-radius: 32px;
+  gap: 5px;
   color: #191919;
 }
 
-a{
+#skip-btn{
   text-decoration: none;
+}
+
+/* Logo */
+
+.logo {
+  width: 55vw;
+  height: 143px;
+  background: url("/assets/img/svg/LogoPC.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: rotateOnce 2.5s; /* Animation duration and name */
+  align-self: center;
+
+}
+
+@keyframes rotateOnce {
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+#main-carrousel, #skip-btn{
+  animation: fadeIn 2.5s; /* Animation duration and name */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
