@@ -1,4 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.getElementById('main-carrousel');
+    const firstSlide = document.getElementById('slide-0');
+
+    // Set the first slide as checked by default
+    firstSlide.checked = true;
+
+    // Function to reset the carousel to the first slide
+    function resetCarousel() {
+      firstSlide.checked = true;
+    }
+
+
+    resetCarousel()
+
     const loadingHub = document.getElementById("container-home");
     const skipBtn = document.getElementById("skip-btn");
     const mainCarousel = document.getElementById("main-carrousel");
@@ -17,3 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(toggleElements, 3500);
     }
 });
+
+function paraInicio(){
+    window.location.href="index.html";
+}

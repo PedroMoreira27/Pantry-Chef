@@ -58,7 +58,7 @@ body {
   background-color: #fafafa;
   border-radius: 10px;
   min-height: 50vh;
-  height: 90vh;
+  height: 97vh;
 }
 
 [carrousel]::before {
@@ -150,19 +150,16 @@ body {
 
 .skip-btn{
   height: 4vh;
-  width: 96.1vw;
+  width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1vh;
   background-color: #fafafa;
-  border-radius: 32px;
+  border-radius: 8px;
+  border: none;
   gap: 5px;
   color: #191919;
-}
-
-#skip-btn{
-  text-decoration: none;
 }
 
 /* Logo */
